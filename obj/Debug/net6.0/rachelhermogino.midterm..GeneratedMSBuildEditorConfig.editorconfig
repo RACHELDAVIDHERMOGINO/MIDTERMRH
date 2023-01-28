@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = rachelhermogino.midterm_
+build_property.RootNamespace = rachelhermogino.midterm_
+build_property.ProjectDir = C:\Users\VGD PC 1\Desktop\rachelhermogino.prelimact2\rachelhermogino.midterm\rachelhermogino.midterm\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\VGD PC 1\Desktop\rachelhermogino.prelimact2\rachelhermogino.midterm\rachelhermogino.midterm
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Infrastracture/domain/model/Books.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5mcmFzdHJhY3R1cmVcZG9tYWluXG1vZGVsXEJvb2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Infrastracture/domain/model/BooksLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5mcmFzdHJhY3R1cmVcZG9tYWluXG1vZGVsXEJvb2tzTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Infrastracture/domain/model/Genres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5mcmFzdHJhY3R1cmVcZG9tYWluXG1vZGVsXEdlbnJlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Infrastracture/security/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5mcmFzdHJhY3R1cmVcc2VjdXJpdHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Pages/manage/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbWFuYWdlXEJvb2tzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Pages/manage/Genres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbWFuYWdlXEdlbnJlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VGD PC 1/Desktop/rachelhermogino.prelimact2/rachelhermogino.midterm/rachelhermogino.midterm/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yl7luyat32

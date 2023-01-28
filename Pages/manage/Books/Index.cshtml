@@ -1,0 +1,121 @@
+﻿@page
+@model rachelhermogino.midterm_.Pages.manage.Books.IndexModel
+@{
+}
+<h3>Roles</h3>
+
+<div class="search">
+    <i class="bi bi-search"></i>
+    <input type="text" class="form-control" placeholder="Search" id="search">
+</div>
+
+<div class="row">
+    <div class="col-3">
+        <div class="form-group">
+            <label for="">Sort By</label>
+            <select class="form-control" id="sortBy" asp-for="View.Books.SortBy">
+                <option value="">choose</option>
+                <option value="name">Name</option>
+                <option value="description">Description</option>
+                <option value="abbreviation">Abbreviation</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="form-group">
+            <label for="">Sort Order</label>
+            <select class="form-control" id="sortOrder" asp-for="View.Books.SortOrder">
+                <option value="1">Ascending</option>
+                <option value="2">Descending</option>
+            </select>
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-2">
+        <a href="~/manage/roles/create" class="btn btn-primary">Create New</a>
+    </div>
+</div>
+
+
+@{
+    if (Model.View != null && Model.View.Books != null && Model.View.Books.Items != null && Model.View.Books.Items.Count > 0)
+    {
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Abbreviation</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var role in Model?.View?.Books.Items)
+                    {
+                        <tr>
+                            <th scope="row">@Books.Name</th>
+                            <td>@Books.Description</td>
+                            <td>@Books.Abbreviation</td>
+                            <td>
+                                <a href="~/manage/Books/update?id=@Books.Id" class="btn btn-primary">
+                                    <i class="fa fa-pencil"></i>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="~/manage/Books/delete?id=@Books.Id" class="btn btn-danger">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                @{
+                    if (Model?.View?.Books.PageIndex > 1)
+                    {
+                        <li class="page-item"><a class="page-link" href="/manage/Books?pageIndex=@(Model?.View?.Books.PageIndex-1)&pageSize=@(Model?.View?.Books.PageSize)&sortBy=@(Model?.View?.Books.SortBy)&sortOrder=@(Model?.View?.Books.SortOrder)">Previous</a></li>
+                    }
+
+                    <li class="page-item"><span class="page-link">page @Model?.View?.Roles.PageIndex of @Model?.View?.Books.PageCount (@Model?.View?.Books.TotalRows total rows)</span></li>
+
+
+                    if (Model?.View?.Books.PageIndex < Model?.View?.Books.PageCount)
+                    {
+                        <li class="page-item"><a class="page-link" href="/manage/Books?pageIndex=@(Model?.View?.Books.PageIndex+1)&pageSize=@(Model?.View?.Books.PageSize)&sortBy=@(Model?.View?.Books.SortBy)&sortOrder=@(Model?.View?.Books.SortOrder)">Next</a></li>
+                    }
+                }
+            </ul>
+        </nav>
+    }
+    else
+    {
+        <div>There are no records to show.</div>
+    }
+}
+
+@section Scripts
+    {
+    <script>
+        $("#search").keyup(function (event) {
+            if (event.keyCode === 13) {
+                window.location = "/manage/Books?keyword=" + $("#search").val();
+            }
+        });
+
+        $("#sortBy").change(function () {
+            window.location = "/manage/Books?keyword=@(Model.View.Books.Keyword)&sortBy=" + $("#sortBy").val() + "&sortOrder=" + $("#sortOrder").val();
+        });
+
+        $("#sortOrder").change(function () {
+            window.location = "/manage/Books?keyword=@(Model.View.Books.Keyword)&sortBy=" + $("#sortBy").val() + "&sortOrder=" + $("#sortOrder").val();
+        });
+    </script>
+}
